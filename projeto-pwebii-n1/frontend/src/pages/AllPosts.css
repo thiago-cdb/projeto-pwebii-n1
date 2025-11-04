@@ -1,0 +1,103 @@
+/* ===== Estilo geral ===== */
+.posts-container {
+  background-color: #0f1419;
+  color: #e7e9ea;
+  min-height: 100vh;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Título ===== */
+.posts-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1da1f2;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* ===== Lista de posts ===== */
+.posts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.post-card {
+  background-color: #16181c;
+  border: 1px solid #2f3336;
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* ===== Título do post ===== */
+.post-title {
+  color: #1da1f2;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.post-title:hover {
+  text-decoration: underline;
+}
+
+/* ===== Texto e metadados ===== */
+.post-meta {
+  font-size: 0.9rem;
+  color: #8b98a5;
+  margin-top: 0.4rem;
+}
+
+.post-meta span {
+  color: #e7e9ea;
+}
+
+.post-text {
+  margin-top: 0.6rem;
+  line-height: 1.4;
+}
+
+/* ===== Sem posts ===== */
+.no-posts {
+  text-align: center;
+  font-style: italic;
+  color: #8b98a5;
+}
+
+/* ===== Paginação ===== */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.nav-btn {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.nav-btn:hover {
+  background-color: #1a91da;
+}
+
+.page-number {
+  font-weight: bold;
+}
